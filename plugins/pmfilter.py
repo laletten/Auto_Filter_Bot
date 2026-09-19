@@ -180,20 +180,19 @@ async def next_page(bot, query):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
                    ]
                    )
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                       InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
-
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
                    ]
                    )
 
@@ -202,17 +201,18 @@ async def next_page(bot, query):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
                    ]
                    )
         btn.insert(0, [
             InlineKeyboardButton(
-                "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
         ])
     if ULTRA_FAST_MODE:
         if 0 < offset <= 10:
@@ -455,40 +455,40 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
                    ]
                    )
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                       InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
-                   ])
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
+                   ]
+                   )
+
     else:
         btn = []
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
                    ]
                    )
-        btn.insert(0,
-                   [
-                       InlineKeyboardButton(
-                           "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                       InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
-
-                   ])
+        btn.insert(0, [
+            InlineKeyboardButton(
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
+        ])
     if offset != "":
         try:
             if settings['max_btn']:
@@ -613,39 +613,40 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
                    ]
                    )
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                       InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
                    ]
                    )
+
     else:
         btn = []
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
                        InlineKeyboardButton(
-                           "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
                        InlineKeyboardButton(
-                           "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
-                   ])
-        btn.insert(0,
-                   [
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
                        InlineKeyboardButton(
-                           "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                       InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
-                   ])
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
+                   ]
+                   )
+        btn.insert(0, [
+            InlineKeyboardButton(
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
+        ])
     if offset != "":
         try:
             if settings['max_btn']:
@@ -766,17 +767,17 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     btn.insert(
         0,
         [
-            InlineKeyboardButton("Qᴜᴀʟɪᴛʏ", callback_data=f"qualities#{req}#{key}"),
-            InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
-            InlineKeyboardButton("Sᴇᴀꜱᴏɴ", callback_data=f"seasons#{req}#{key}"),
+            InlineKeyboardButton("⭐", callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
+            InlineKeyboardButton("🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
+            InlineKeyboardButton("🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+            InlineKeyboardButton("🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
         ],
     )
     btn.insert(
         0,
         [
             InlineKeyboardButton(
-                "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS),
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER),
         ],
     )
     if n_offset != "":
@@ -1076,7 +1077,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
         ]]
         if cfg["search"]:
-            btn2.append([InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=GRP_LNK)])
+            btn2.append([InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=GRP_LNK, style=enums.ButtonStyle.DANGER)])
             
         content = query.message.text
         await query.message.edit_text(f"<b><strike>{content}</strike></b>")
@@ -1138,7 +1139,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', url=dreamx_stream)
                     ],
                     [
-                        InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
+                        InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK, style=enums.ButtonStyle.DANGER)
                     ]
                 ])
             )
@@ -1158,7 +1159,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             photo="https://i.ibb.co/whf8xF7j/photo-2025-07-26-10-42-46-7531339305176793100.jpg",
             caption=script.PRE_STREAM,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info")]
+                [InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info", style=enums.ButtonStyle.SUCCESS)]
             ])
         )
         await asyncio.sleep(DELETE_TIME)
@@ -1169,14 +1170,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
-                ],[
-                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
-                ]]
+                        InlineKeyboardButton('🔰 𝓙𝓸𝓲𝓷 𝓤𝓹𝓭𝓪𝓽𝓮𝓼 𝓒𝓱𝓪𝓷𝓷𝓮𝓵', url=f'https://t.me/+vnnb6GcoqyQ3NmM1', style=enums.ButtonStyle.DANGER)
+                    ],[
+                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help', style=enums.ButtonStyle.PRIMARY),
+                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about', style=enums.ButtonStyle.SUCCESS)
+                    ],[
+                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch", style=enums.ButtonStyle.PRIMARY),
+                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info", style=enums.ButtonStyle.SUCCESS),
+                    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour
@@ -1212,7 +1213,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "donation":
         buttons = [[
-                InlineKeyboardButton('🌲 Sᴇɴᴅ Dᴏɴᴀᴛᴇ Sᴄʀᴇᴇɴsʜᴏᴛ Hᴇʀᴇ', url=OWNER_LNK)
+                InlineKeyboardButton('🌲 Sᴇɴᴅ Dᴏɴᴀᴛᴇ Sᴄʀᴇᴇɴsʜᴏᴛ Hᴇʀᴇ', url=OWNER_LNK, style=enums.ButtonStyle.PRIMARY)
             ],[
                 InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='about')
             ]]
@@ -1245,12 +1246,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
-            InlineKeyboardButton ('🪔 sᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer', style=enums.ButtonStyle.PRIMARY),
+            InlineKeyboardButton ('🪔 sᴏᴜʀᴄᴇ', callback_data='source', style=enums.ButtonStyle.PRIMARY),
         ],[
-            InlineKeyboardButton('ᴅᴏɴᴀᴛɪᴏɴ 💰', callback_data='donation'),
+            InlineKeyboardButton('ᴅᴏɴᴀᴛɪᴏɴ 💰', callback_data='donation', style=enums.ButtonStyle.SUCCESS),
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start', style=enums.ButtonStyle.DANGER)
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1284,7 +1285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ),
                     parse_mode=enums.ParseMode.HTML,
                     reply_markup=InlineKeyboardMarkup([[
-                        InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info")
+                        InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info", style=enums.ButtonStyle.SUCCESS)
                     ]])
                 )
                 await asyncio.sleep(DELETE_TIME)
@@ -1296,8 +1297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ᴅʀᴇᴀᴍxʙᴏᴛᴢ 📜', url='https://github.com/DreamXBotz/Auto_Filter_Bot.git'),
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ 📜', url='https://t.me/iqbaleditzzz/347', style=enums.ButtonStyle.SUCCESS),
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about', style=enums.ButtonStyle.DANGER)
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1311,7 +1312,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "disclaimer":
             btn = [[
-                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")
+                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about", style=enums.ButtonStyle.DANGER)
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1323,12 +1324,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "premium_info":
         try:
             btn = [[
-                InlineKeyboardButton('• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •', callback_data='buy_info'),
+                InlineKeyboardButton('• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •', callback_data='buy_info', style=enums.ButtonStyle.SUCCESS),
             ],[
-                InlineKeyboardButton('• ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ', callback_data='reffff'),
-                InlineKeyboardButton('ꜰʀᴇᴇ ᴛʀɪᴀʟ •', callback_data='give_trial')
+                InlineKeyboardButton('• ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ', callback_data='reffff', style=enums.ButtonStyle.PRIMARY),
+                InlineKeyboardButton('ꜰʀᴇᴇ ᴛʀɪᴀʟ •', callback_data='give_trial', style=enums.ButtonStyle.PRIMARY)
             ],[
-                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start', style=enums.ButtonStyle.DANGER)
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await client.edit_message_media(
@@ -1344,10 +1345,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "buy_info":
         try:
             btn = [[
-                InlineKeyboardButton('ꜱᴛᴀʀ', callback_data='star_info'),
-                InlineKeyboardButton('ᴜᴘɪ', callback_data='upi_info')
+                InlineKeyboardButton('⭐️ ꜱᴛᴀʀ', callback_data='star_info'),
+                InlineKeyboardButton('💰 ᴜᴘɪ', callback_data='upi_info')
             ],[
-                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ⇋', callback_data='premium_info')
+                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ⇋', callback_data='premium_info', style=enums.ButtonStyle.DANGER)
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await client.edit_message_media(
@@ -1362,9 +1363,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "upi_info":
         try:
             btn = [[
-                InlineKeyboardButton('• ꜱᴇɴᴅ  ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ •', url=OWNER_LNK),
+                InlineKeyboardButton('• ꜱᴇɴᴅ  ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ •', url=OWNER_LNK, style=enums.ButtonStyle.SUCCESS),
             ],[
-                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='buy_info')
+                InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='buy_info', style=enums.ButtonStyle.DANGER)
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await client.edit_message_media(
@@ -1540,49 +1541,49 @@ async def auto_filter(client, msg, spoll=False):
             pass
         if settings.get('button'):
             btn = [
-                [
-                    InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
-                        file.file_name), callback_data=f'file#{file.file_id}'),
-                ]
-                for file in files
+            [
+                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
+                    file.file_name), callback_data=f'file#{file.file_id}'),
+            ]
+            for file in files
             ]
             btn.insert(0,
-                       [
-                           InlineKeyboardButton(
-                               'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
-                           InlineKeyboardButton(
-                               "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
-                           InlineKeyboardButton(
-                               "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
-                       ]
-                       )
+                   [
+                       InlineKeyboardButton(
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
+                       InlineKeyboardButton(
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
+                       InlineKeyboardButton(
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
+                   ]
+                   )
             btn.insert(0,
-                       [
-                           InlineKeyboardButton(
-                               "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                           InlineKeyboardButton(
-                               "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
+                   [
+                       InlineKeyboardButton(
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
+                   ]
+                   )
 
-                       ])
         else:
             btn = []
             btn.insert(0,
-                       [
-                           InlineKeyboardButton(
-                               'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{req}#{key}"),
-                           InlineKeyboardButton(
-                               "Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{req}#{key}"),
-                           InlineKeyboardButton(
-                               "Sᴇᴀsᴏɴ",  callback_data=f"seasons#{req}#{key}")
-                       ]
-                       )
-            btn.insert(0,
-                       [
-                           InlineKeyboardButton(
-                               "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium", style=enums.ButtonStyle.PRIMARY),
-                           InlineKeyboardButton(
-                               "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}", style=enums.ButtonStyle.SUCCESS)
-                       ])
+                   [
+                       InlineKeyboardButton(
+                           '⭐', callback_data=f"qualities#{req}#{key}", style=enums.ButtonStyle.PRIMARY),
+                       InlineKeyboardButton(
+                           "🌐", callback_data=f"languages#{req}#{key}", style=enums.ButtonStyle.SUCCESS),
+                       InlineKeyboardButton(
+                           "🎁", url=f"https://t.me/+UnWLVHfurFEzY2Q1"),
+                       InlineKeyboardButton(
+                           "🏆", url=f"https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.PRIMARY)
+                   ]
+                   )
+            btn.insert(0, [
+            InlineKeyboardButton(
+                           "🎖️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs🎖️", url=f"https://t.me/+vnnb6GcoqyQ3NmM1", style=enums.ButtonStyle.DANGER)
+        ])
 
         if offset != "":
             req = message.from_user.id if message.from_user else 0
@@ -1667,16 +1668,16 @@ async def auto_filter(client, msg, spoll=False):
             temp.IMDB_CAP[message.from_user.id] = None
             if ULTRA_FAST_MODE:
                 if settings.get('button'):
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'iqbaleditz'} \n\n<u><a href=https://t.me/How_To_Get_This_Movie><a href=https://t.me/How_To_Get_This_Movie>Your Requested Files Are Here</a></a></u> \n\n</b>"
                 else:
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'iqbaleditz'} \n\n<u><a href=https://t.me/How_To_Get_This_Movie><a href=https://t.me/How_To_Get_This_Movie>Your Requested Files Are Here</a></a></u> \n\n</b>"
                     for idx, file in enumerate(files, start=1):
                         cap += f"<b>\n{idx}. <a href='https://telegram.me/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'>[{get_size(file.file_size)}] {clean_filename(file.file_name)}\n</a></b>"
             else:
                 if settings.get('button'):
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'iqbaleditz'} \n\n<u><a href=https://t.me/How_To_Get_This_Movie><a href=https://t.me/How_To_Get_This_Movie>Your Requested Files Are Here</a></a></u> \n\n</b>"
                 else:
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'iqbaleditz'} \n\n<u><a href=https://t.me/How_To_Get_This_Movie><a href=https://t.me/How_To_Get_This_Movie>Your Requested Files Are Here</a></a></u> \n\n</b>"
 
                     for idx, file in enumerate(files, start=1):
                         cap += f"<b>\n{idx}. <a href='https://telegram.me/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'>[{get_size(file.file_size)}] {clean_filename(file.file_name)}\n</a></b>"
