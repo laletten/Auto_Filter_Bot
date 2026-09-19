@@ -367,12 +367,27 @@ async def send_movie_update(bot, base_name):
                 return None
 
             text = generate_movie_message(movie_doc, base_name)
-            buttons = InlineKeyboardMarkup([[
-                InlineKeyboardButton(
-                    'ɢᴇᴛ ғɪʟᴇs',
-                    url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
-                )
-            ]])
+            buttons = InlineKeyboardMarkup([
+                [
+                    InlineKeyboardButton(
+                        'Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ Fɪʟᴇs ⬇️',
+                        url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
+                    )
+                ],
+                [
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 1 🎬', url="https://t.me/+bqOxtx3RossxZjU1", style=enums.ButtonStyle.SUCCESS),
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 2 🎬', url="https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.SUCCESS)
+                ],
+                [
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 3 🎬', url="https://t.me/+UnWLVHfurFEzY2Q1", style=enums.ButtonStyle.DANGER),
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 4 🎬', url="https://t.me/+4NG37cW28_swYTE1", style=enums.ButtonStyle.DANGER)
+                ],
+                [
+                    InlineKeyboardButton('🍿', url="https://t.me/MM_M0V1ES", style=enums.ButtonStyle.PRIMARY),
+                    InlineKeyboardButton('📺', url="https://t.me/+IjUTlNI-_MxhZDNl", style=enums.ButtonStyle.PRIMARY),
+                    InlineKeyboardButton('🤖', url="https://t.me/iqbaleditzzz/354", style=enums.ButtonStyle.PRIMARY)
+                ]
+            ])
             size=(2560, 1440) if LANDSCAPE_POSTER and TMDB_POSTER and movie_doc.get("is_backdrop") and not movie_doc.get("error_tmdb") else (853, 1280)
             if movie_doc.get("poster_url") and not LINK_PREVIEW:
                 resized_poster = await fetch_image(movie_doc["poster_url"], size)
@@ -428,12 +443,27 @@ async def update_movie_message(bot, base_name):
             return
 
         text = generate_movie_message(movie_doc, base_name)
-        buttons = InlineKeyboardMarkup([[
-            InlineKeyboardButton(
-                'ɢᴇᴛ ғɪʟᴇs',
-                url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
-            )
-        ]])
+        buttons = InlineKeyboardMarkup([
+                [
+                    InlineKeyboardButton(
+                        'Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ Fɪʟᴇs ⬇️',
+                        url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
+                    )
+                ],
+                [
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 1 🎬', url="https://t.me/+bqOxtx3RossxZjU1", style=enums.ButtonStyle.SUCCESS),
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 2 🎬', url="https://t.me/+Qkwjitoi4R9iOWZl", style=enums.ButtonStyle.SUCCESS)
+                ],
+                [
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 3 🎬', url="https://t.me/+UnWLVHfurFEzY2Q1", style=enums.ButtonStyle.DANGER),
+                    InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 4 🎬', url="https://t.me/+4NG37cW28_swYTE1", style=enums.ButtonStyle.DANGER)
+                ],
+                [
+                    InlineKeyboardButton('🍿', url="https://t.me/MM_M0V1ES", style=enums.ButtonStyle.PRIMARY),
+                    InlineKeyboardButton('📺', url="https://t.me/+IjUTlNI-_MxhZDNl", style=enums.ButtonStyle.PRIMARY),
+                    InlineKeyboardButton('🤖', url="https://t.me/iqbaleditzzz/354", style=enums.ButtonStyle.PRIMARY)
+                ]
+            ])
 
         message_id = movie_doc.get("message_id")
         is_photo = movie_doc.get("is_photo", False)
